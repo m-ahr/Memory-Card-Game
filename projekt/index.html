@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory-Kartenspiel</title>
+    <link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+  <section class="memory-game">
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front" src="img/aurelia.svg" alt="Aurelia" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front" src="img/aurelia.svg" alt="Aurelia" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+      <img class="front" src="img/vue.svg" alt="Vue" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="vue">
+      <img class="front" src="img/vue.svg" alt="Vue" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+      <img class="front" src="img/angular.svg" alt="Angular" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="angular">
+      <img class="front" src="img/angular.svg" alt="Angular" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+      <img class="front" src="img/ember.svg" alt="Ember" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="ember">
+      <img class="front" src="img/ember.svg" alt="Ember" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+      <img class="front" src="img/backbone.svg" alt="Backbone" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="backbone">
+      <img class="front" src="img/backbone.svg" alt="Backbone" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="react">
+      <img class="front" src="img/react.svg" alt="React" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="react">
+      <img class="front" src="img/react.svg" alt="React" />
+      <img class="back" src="img/js-badge.svg" alt="JS Badge" />
+    </div>
+    
+  </section>
+    <!------- Normale Stoppuhr-------------------------->
+  <section id="sect_zwei">
+    <div id="zeitanzeige">00:00:00.000</div>
+    <div id="button-behaelter">
+        <button onclick="start()">Start</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+  </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
